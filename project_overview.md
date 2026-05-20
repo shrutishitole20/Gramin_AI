@@ -73,7 +73,7 @@ The Home page is structured to guide the user through a narrative arc from disco
 
 ---
 
-## 🛠️ Key Components
+##  Key Components
 - **Navbar**: Crystalline, glassmorphic navigation with localized routing.
 - **FloatingChatbot**: Accessible from every page for instant assistance.
 - **ScrollReveal**: Directional entrance animations (Up, Left, Right) that make the UI feel alive.
