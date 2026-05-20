@@ -1,0 +1,427 @@
+/* ========================================================
+   NEWS CAROUSEL — NewsCarousel.css  (Enhanced Large Edition)
+   Newspaper-clipping style with white image frame
+   ======================================================== */
+
+/* ---------- Section ---------- */
+.nc-section {
+  padding: 6rem 0 5rem;
+  background: #f1f5f9;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ---------- Header ---------- */
+.nc-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3.5rem;
+  padding: 0 1.5rem;
+}
+
+.nc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 100px;
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.18);
+  color: #6366f1;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+}
+
+.nc-badge-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #6366f1;
+  animation: nc-pulse 2s infinite;
+}
+
+@keyframes nc-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.75); }
+}
+
+.nc-title {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.03em;
+  margin: 0 0 1rem;
+  line-height: 1.1;
+}
+
+.nc-subtitle {
+  font-size: 1.05rem;
+  color: #64748b;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ---------- Wrapper (arrows + track) ---------- */
+.nc-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 680px;
+}
+
+/* ---------- Track ---------- */
+.nc-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: visible;
+}
+
+/* ---------- Cards ---------- */
+.nc-card {
+  position: absolute;
+  width: 420px;
+  border-radius: 1.75rem;
+  background: #ffffff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity   0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.5s ease,
+              filter    0.5s ease;
+  will-change: transform, opacity;
+  user-select: none;
+}
+
+/* Hidden cards (distance >= 2) */
+.nc-card--hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(calc(var(--distance, 0) * 58%)) scale(0.70);
+  filter: blur(3px);
+  z-index: 0;
+}
+
+/* Peeking cards (distance = ±1) */
+.nc-card--peek {
+  opacity: 0.65;
+  transform: translateX(calc(var(--distance, 0) * 55%)) scale(0.82);
+  z-index: 1;
+  filter: grayscale(25%);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.nc-card--peek:hover {
+  opacity: 0.82;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Active / focused card */
+.nc-card--active {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+  z-index: 10;
+  width: 620px;
+  box-shadow: 0 32px 80px rgba(99, 102, 241, 0.22),
+              0 12px 40px rgba(0, 0, 0, 0.12);
+  filter: none;
+  cursor: default;
+}
+
+/* ---------- Image white-frame container ---------- */
+.nc-card-image-wrap {
+  position: relative;
+  width: 100%;
+  /* White frame/padding area */
+  background: #ffffff;
+  padding: 18px 18px 0 18px;
+}
+
+.nc-card--active .nc-card-image-wrap {
+  padding: 22px 22px 0 22px;
+}
+
+/* Inner frame that holds the image */
+.nc-card-image-inner {
+  width: 100%;
+  height: 320px;
+  background: #f8fafc;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e2e8f0;
+}
+
+.nc-card--active .nc-card-image-inner {
+  height: 400px;
+}
+
+.nc-card-img {
+  width: 100%;
+  height: 100%;
+  /* CONTAIN so newspaper text is never cropped */
+  object-fit: contain;
+  object-position: center top;
+  transition: transform 0.7s ease;
+  display: block;
+  padding: 4px;
+}
+
+.nc-card--active:hover .nc-card-img {
+  transform: scale(1.03);
+}
+
+/* Tag badge */
+.nc-card-tag {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  background: rgba(99, 102, 241, 0.92);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.75rem;
+  border-radius: 100px;
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+/* ---------- Card body ---------- */
+.nc-card-body {
+  padding: 1.4rem 1.6rem 1.8rem;
+}
+
+.nc-card--active .nc-card-body {
+  padding: 1.8rem 2rem 2.2rem;
+}
+
+.nc-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 0.55rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.nc-card--active .nc-card-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nc-card-desc {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nc-card--active .nc-card-desc {
+  font-size: 0.95rem;
+  -webkit-line-clamp: 4;
+}
+
+.nc-card--peek .nc-card-body {
+  opacity: 0.55;
+}
+
+/* ---------- Arrow Buttons ---------- */
+.nc-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #1e293b;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.28);
+  transition: background 0.25s ease, transform 0.25s ease, opacity 0.25s ease;
+  flex-shrink: 0;
+}
+
+.nc-arrow--prev {
+  left: calc(50% - 360px);
+}
+
+.nc-arrow--next {
+  right: calc(50% - 360px);
+}
+
+.nc-arrow:hover:not(:disabled) {
+  background: #6366f1;
+  transform: translateY(-50%) scale(1.12);
+}
+
+.nc-arrow:active:not(:disabled) {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.nc-arrow:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+/* ---------- Dot Markers ---------- */
+.nc-markers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 2.8rem;
+}
+
+.nc-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s ease, transform 0.3s ease, width 0.3s ease;
+  flex-shrink: 0;
+}
+
+.nc-dot--active {
+  background: #1e293b;
+  width: 28px;
+  border-radius: 100px;
+}
+
+.nc-dot:hover:not(.nc-dot--active) {
+  background: #94a3b8;
+  transform: scale(1.35);
+}
+
+/* ---------- Counter ---------- */
+.nc-counter {
+  text-align: center;
+  font-size: 0.88rem;
+  color: #64748b;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-top: 0.9rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1100px) {
+  .nc-card--active {
+    width: 500px;
+  }
+
+  .nc-arrow--prev {
+    left: calc(50% - 300px);
+  }
+
+  .nc-arrow--next {
+    right: calc(50% - 300px);
+  }
+
+  .nc-card--active .nc-card-image-inner {
+    height: 340px;
+  }
+}
+
+@media (max-width: 900px) {
+  .nc-wrapper {
+    min-height: 560px;
+  }
+
+  .nc-card {
+    width: 300px;
+  }
+
+  .nc-card--active {
+    width: 420px;
+  }
+
+  .nc-card--active .nc-card-image-inner {
+    height: 280px;
+  }
+
+  .nc-card-image-inner {
+    height: 240px;
+  }
+
+  .nc-arrow--prev {
+    left: calc(50% - 255px);
+  }
+
+  .nc-arrow--next {
+    right: calc(50% - 255px);
+  }
+}
+
+@media (max-width: 640px) {
+  .nc-section {
+    padding: 4rem 0 3.5rem;
+  }
+
+  .nc-wrapper {
+    min-height: 480px;
+  }
+
+  .nc-card {
+    width: 82vw;
+    max-width: 320px;
+  }
+
+  .nc-card--active {
+    width: 88vw;
+    max-width: 360px;
+  }
+
+  .nc-card--peek {
+    opacity: 0.45;
+    transform: translateX(calc(var(--distance, 0) * 82%)) scale(0.78);
+  }
+
+  .nc-card--active .nc-card-image-inner {
+    height: 240px;
+  }
+
+  .nc-card-image-inner {
+    height: 200px;
+  }
+
+  .nc-arrow--prev {
+    left: 0.4rem;
+  }
+
+  .nc-arrow--next {
+    right: 0.4rem;
+  }
+
+  .nc-arrow {
+    width: 42px;
+    height: 42px;
+  }
+
+  .nc-title {
+    font-size: 1.9rem;
+  }
+}

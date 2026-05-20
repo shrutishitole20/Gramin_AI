@@ -1,0 +1,44 @@
+{
+  "en": {
+    "welcome": "Namaste! I am Gramin Agentic Intelligence. How can I help you co-create today?",
+    "placeholders": "Query the Rural Intelligence Network...",
+    "quick_buttons": ["Rural Innovation Map", "Small Business Advice", "AI Robotics Challenge", "Ethical Guidelines"],
+    "responses": {
+      "hi": "Hello! How can I assist you with rural innovation today?",
+      "hello": "Hello! How can I assist you with rural innovation today?",
+      "map": "Our Rural Innovation Map is currently tracking over 500 projects across Vidarbha and Marathwada.",
+      "business": "For small businesses, we recommend starting with our Viability Analysis tool.",
+      "robotics": "We provide blueprints for autonomous harvest robots in our 'Robotics' section.",
+      "ethical": "Our ethical framework ensures AI serves the community without bias.",
+      "default": "I am processing your request through our rural neural network. Could you be more specific?"
+    }
+  },
+  "mr": {
+    "welcome": "नमस्ते! मी ग्रामीण एजेंटिक इंटेलिजन्स आहे. आज मी तुम्हाला कशी मदत करू शकतो?",
+    "placeholders": "ग्रामीण इंटेलिजेंस नेटवर्कला विचारा...",
+    "quick_buttons": ["ग्रामीण उपक्रम नकाशा", "छोटा व्यवसाय सल्ला", "AI रोबोटिक्स आव्हान", "नैतिक मार्गदर्शक तत्त्वे"],
+    "responses": {
+      "hi": "नमस्कार! आज मी तुम्हाला ग्रामीण उपक्रमांबद्दल कशी मदत करू शकतो?",
+      "hello": "नमस्कार! आज मी तुम्हाला ग्रामीण उपक्रमांबद्दल कशी मदत करू शकतो?",
+      "नकाशा": "आमचा ग्रामीण उपक्रम नकाशा सध्या विदर्भ आणि मराठवाड्यातील ५०० हून अधिक प्रकल्पांचा मागोवा घेत आहे.",
+      "सल्ला": "लहान व्यवसायांसाठी, आम्ही आमच्या 'व्यवहार्यता विश्लेषण' साधनापासून सुरुवात करण्याची शिफारस करतो.",
+      "रोबोटिक्स": "आम्ही आमच्या 'रोबोटिक्स' विभागात स्वायत्त कापणी रोबोटसाठी ब्ल्यूप्रिंट प्रदान करतो.",
+      "नैतिक": "आमची नैतिक चौकट AI ला कोणत्याही भेदभावाशिवाय समुदायाची सेवा करण्यास सुनिश्चित करते.",
+      "default": "तुमची विनंती आमच्या ग्रामीण न्यूरल नेटवर्कद्वारे प्रक्रिया केली जात आहे. अधिक स्पष्ट विचारू शकता का?"
+    }
+  },
+  "hi": {
+    "welcome": "नमस्ते! मैं ग्रामीण एजेंटिक इंटेलिजेंस हूं। आज मैं आपकी कैसे मदद कर सकता हूं?",
+    "placeholders": "ग्रामीण इंटेलिजेंस नेटवर्क से पूछें...",
+    "quick_buttons": ["ग्रामीण नवाचार मानचित्र", "छोटा व्यवसाय सलाह", "AI रोबोटिक्स चुनौती", "नैतिक दिशा-निर्देश"],
+    "responses": {
+      "hi": "नमस्ते! आज मैं ग्रामीण नवाचार में आपकी कैसे सहायता कर सकता हूँ?",
+      "hello": "नमस्ते! आज मैं ग्रामीण नवाचार में आपकी कैसे सहायता कर सकता हूँ?",
+      "मानचित्र": "हमारा ग्रामीण नवाचार मानचित्र वर्तमान में विदर्भ और मराठवाड़ा के 500 से अधिक परियोजनाओं को ट्रैक कर रहा है.",
+      "सलाह": "छोटे व्यवसायों के लिए, हम हमारे 'व्यवहार्यता विश्लेषण' टूल से शुरू करने की सलाह देते हैं.",
+      "रोबोटिक्स": "हम हमारे 'रोबोटिक्स' खंड में स्वायत्त फसल रोबोट के लिए ब्लूप्रिंट प्रदान करते हैं.",
+      "निर्देश": "हमारा नैतिक ढांचा यह सुनिश्चित करता है कि AI बिना किसी भेदभाव के समुदाय की सेवा करे.",
+      "default": "मैं आपके अनुरोध को हमारे ग्रामीण न्यूरल नेटवर्क के माध्यम से संसाधित कर रहा हूँ। क्या आप अधिक स्पष्ट हो सकते हैं?"
+    }
+  }
+}

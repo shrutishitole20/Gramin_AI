@@ -1,0 +1,156 @@
+{
+  "chatbot_data": [
+    {
+      "id": 1,
+      "question": {
+        "en": "What is Gramin AI?",
+        "hi": "ग्रामीण एआई क्या है?",
+        "mr": "ग्रामीण एआय म्हणजे काय?"
+      },
+      "answers": {
+        "en": [
+          "Gramin AI is an innovative platform designed to empower rural communities by leveraging advanced artificial intelligence technologies. It connects grassroots innovators with global mentors, technical resources, and funding opportunities to help transform their ideas into scalable solutions. Visit https://tdtl.world/ for more information."
+        ],
+        "hi": [
+          "ग्रामीण एआई एक उन्नत प्लेटफॉर्म है जो कृत्रिम बुद्धिमत्ता तकनीक के माध्यम से ग्रामीण समुदायों को सशक्त बनाने के लिए बनाया गया है। यह स्थानीय नवाचारों को वैश्विक मेंटर्स, तकनीकी संसाधनों और फंडिंग अवसरों से जोड़ता है। अधिक जानकारी के लिए https://tdtl.world/ पर जाएं।"
+        ],
+        "mr": [
+          "ग्रामीण एआय हे एक प्रगतिशील प्लॅटफॉर्म आहे जे कृत्रिम बुद्धिमत्तेच्या मदतीने ग्रामीण भागाला सक्षम बनवते. हे स्थानिक नवकल्पना जागतिक मार्गदर्शक आणि निधी संधींशी जोडते. अधिक माहितीसाठी https://tdtl.world/ ला भेट द्या."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "en": "What is the Gramin AI Summit 2026?",
+        "hi": "ग्रामीण एआई समिट 2026 क्या है?",
+        "mr": "ग्रामीण एआय समिट 2026 काय आहे?"
+      },
+      "answers": {
+        "en": [
+          "Gramin AI Summit 2026 is a flagship event dedicated to promoting rural innovators. It provides global exposure, networking, and mentorship from industry experts. Visit https://tdtl.world/ to learn more."
+        ],
+        "hi": [
+          "ग्रामीण एआई समिट 2026 एक प्रमुख आयोजन है जो ग्रामीण नवाचारों को पहचान और प्रोत्साहन देता है। यह वैश्विक मंच और विशेषज्ञों से मार्गदर्शन प्रदान करता है। अधिक जानकारी के लिए https://tdtl.world/ देखें।"
+        ],
+        "mr": [
+          "ग्रामीण एआय समिट 2026 हा एक महत्त्वाचा कार्यक्रम आहे जो ग्रामीण नवकल्पनांना प्रोत्साहन देतो. यात जागतिक ओळख आणि तज्ञांचे मार्गदर्शन मिळते. अधिक माहितीसाठी https://tdtl.world/ पहा."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "en": "What benefits do participants get?",
+        "hi": "प्रतिभागियों को क्या लाभ मिलते हैं?",
+        "mr": "सहभागींना कोणते फायदे मिळतात?"
+      },
+      "answers": {
+        "en": [
+          "Participants gain official certification, access to business opportunities, and direct connections with mentors. You also get a chance to showcase your innovation globally. Visit https://tdtl.world/ for details."
+        ],
+        "hi": [
+          "प्रतिभागियों को प्रमाणपत्र, बिजनेस के अवसर और मेंटर्स से सीधे जुड़ने का मौका मिलता है। अधिक जानकारी के लिए https://tdtl.world/ देखें।"
+        ],
+        "mr": [
+          "सहभागींना अधिकृत प्रमाणपत्र, व्यवसायाच्या संधी आणि मार्गदर्शकांशी थेट संपर्क मिळतो. अधिक माहितीसाठी https://tdtl.world/ पहा."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "en": "Who is organizing Gramin AI?",
+        "hi": "ग्रामीण एआई का आयोजन कौन कर रहा है?",
+        "mr": "ग्रामीण एआयचे आयोजन कोण करत आहे?"
+      },
+      "answers": {
+        "en": [
+          "The event is organized by Nitin Udmale Foundation in collaboration with The Data Tech Labs (TDTL) Inc. Visit https://tdtl.world/ for organizer details."
+        ],
+        "hi": [
+          "इस आयोजन का निर्माण नितिन उदमले फाउंडेशन और द डेटा टेक लैब्स (TDTL) द्वारा किया गया है। अधिक जानकारी के लिए https://tdtl.world/ देखें।"
+        ],
+        "mr": [
+          "या कार्यक्रमाचे आयोजन नितीन उदमले फाउंडेशन आणि द डेटा टेक लॅब्स (TDTL) द्वारे केले जाते. अधिक माहितीसाठी https://tdtl.world/ पहा."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "question": {
+        "en": "Where and when is the event?",
+        "hi": "यह कार्यक्रम कब और कहाँ है?",
+        "mr": "हा कार्यक्रम कधी आणि कोठे आहे?"
+      },
+      "answers": {
+        "en": [
+          "The Gramin AI Summit 2026 is scheduled for April 24, 2026, at Mauli Sankul, Savedi, Ahilyanagar. Visit https://tdtl.world/ for venue specifics."
+        ],
+        "hi": [
+          "ग्रामीण एआई समिट 2026 का आयोजन 24 अप्रैल 2026 को माउली संकुल, सावेडी, अहिल्यानगर में होगा। अधिक जानकारी के लिए https://tdtl.world/ देखें।"
+        ],
+        "mr": [
+          "ग्रामीण एआय समिट 2026 चे आयोजन 24 एप्रिल 2026 रोजी माउली संकुल, सावेडी, अहिल्यानगर येथे होणार आहे. अधिक माहितीसाठी https://tdtl.world/ पहा."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "question": {
+        "en": "How can I register for the summit?",
+        "hi": "मैं समिट के लिए पंजीकरण कैसे कर सकता हूँ?",
+        "mr": "मी समिटसाठी नोंदणी कशी करू शकतो?"
+      },
+      "answers": {
+        "en": [
+          "You can register directly on our website through the Registration section. Simply fill out your details and verify your email. For assistance, visit https://tdtl.world/."
+        ],
+        "hi": [
+          "आप हमारी वेबसाइट के रजिस्ट्रेशन सेक्शन के माध्यम से पंजीकरण कर सकते हैं। अधिक सहायता के लिए https://tdtl.world/ पर जाएं।"
+        ],
+        "mr": [
+          "तुम्ही आमच्या वेबसाइटवरील नोंदणी विभागाद्वारे थेट नोंदणी करू शकता. अधिक मदतीसाठी https://tdtl.world/ ला भेट द्या."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "question": {
+        "en": "Is participation in the summit free?",
+        "hi": "क्या समिट में भाग लेना निःशुल्क है?",
+        "mr": "समिटमध्ये सहभाग विनामूल्य आहे का?"
+      },
+      "answers": {
+        "en": [
+          "Yes, registration and participation in the Gramin AI Summit for selected rural innovators is supported by our foundation. For terms and conditions, visit https://tdtl.world/."
+        ],
+        "hi": [
+          "हाँ, चयनित ग्रामीण इनोवेटर्स के लिए पंजीकरण और भागीदारी निःशुल्क है। अधिक विवरण के लिए https://tdtl.world/ देखें।"
+        ],
+        "mr": [
+          "हो, निवडक ग्रामीण नवकल्पकांसाठी नोंदणी आणि सहभाग विनामूल्य आहे. अधिक तपशीलांसाठी https://tdtl.world/ पहा."
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "question": {
+        "en": "Which sectors does Gramin AI focus on?",
+        "hi": "ग्रामीण एआई किन क्षेत्रों पर ध्यान केंद्रित करता है?",
+        "mr": "ग्रामीण एआय कोणत्या क्षेत्रांवर लक्ष केंद्रित करते?"
+      },
+      "answers": {
+        "en": [
+          "We primarily focus on Agriculture, Healthcare, Education, and Rural Entrepreneurship. Visit https://tdtl.world/ to see our current projects."
+        ],
+        "hi": [
+          "हम मुख्य रूप से कृषि, स्वास्थ्य, शिक्षा और ग्रामीण उद्यमिता पर ध्यान केंद्रित करते हैं। अधिक जानकारी के लिए https://tdtl.world/ देखें।"
+        ],
+        "mr": [
+          "आम्ही प्रामुख्याने कृषी, आरोग्य, शिक्षण आणि ग्रामीण उद्योजकतेवर लक्ष केंद्रित करतो. अधिक माहितीसाठी https://tdtl.world/ पहा."
+        ]
+      }
+    }
+  ]
+}
