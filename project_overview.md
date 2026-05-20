@@ -25,7 +25,7 @@ The application is built using **React** with a modern, responsive design system
 | **Features** | `/features` | Technical breakdown of the core modules and innovation engines. |
 | **Support** | `/support` | Help center with direct contact lines for engineering, ethics, and partnerships. |
 
----
+
 
 ## 🏠 Home Page: Section Breakdown
 
