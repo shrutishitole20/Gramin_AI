@@ -12,7 +12,6 @@ The application is built using **React** with a modern, responsive design system
 - **Animations**: Custom `useScrollReveal` hook for dynamic entry effects
 - **State Management**: React Hooks (useState, useEffect)
 
----
 
 ## 📄 Core Pages
 
