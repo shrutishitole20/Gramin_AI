@@ -13,7 +13,7 @@ The application is built using **React** with a modern, responsive design system
 - **State Management**: React Hooks (useState, useEffect)
 
 
-## 📄 Core Pages
+## Core Pages
 
 | Page | Path | Purpose |
 | :--- | :--- | :--- |
