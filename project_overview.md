@@ -27,7 +27,7 @@ The application is built using **React** with a modern, responsive design system
 
 
 
-## 🏠 Home Page: Section Breakdown
+##  Home Page: Section Breakdown
 
 The Home page is structured to guide the user through a narrative arc from discovery to action.
 
