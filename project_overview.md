@@ -2,7 +2,7 @@
 
 Gramin AI is a high-end, professional platform dedicated to democratizing **Agentic Intelligence** for rural development. It serves as a bridge between global tech leaders and grassroots innovators, providing mentorship, funding pipelines, and specialized AI frameworks for sustainable rural growth.
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 The application is built using **React** with a modern, responsive design system. It utilizes **Material UI (MUI)** for standardized components and custom **Vanilla CSS** for premium aesthetic touches like glassmorphism, dynamic gradients, and scroll-reveal animations.
 
