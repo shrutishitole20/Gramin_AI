@@ -21,3 +21,5 @@ export const useScrollReveal = (selector = '.reveal', threshold = 0.1, trigger =
     };
   }, [selector, threshold, trigger]);
 };
+
+
